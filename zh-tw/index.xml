@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TCFSH69&#39;s Blog</title>
+    <link>https://tcfsh69.github.io/zh-tw/</link>
+    <description>Recent content on TCFSH69&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tW</language>
+    <managingEditor>ychen2@andrew.cmu.edu (Patrick)</managingEditor>
+    <webMaster>ychen2@andrew.cmu.edu (Patrick)</webMaster>
+    <copyright>Copy, _right?_ 🤔</copyright>
+    <lastBuildDate>Wed, 30 Apr 2025 14:04:51 +0800</lastBuildDate><atom:link href="https://tcfsh69.github.io/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>關於我</title>
+      <link>https://tcfsh69.github.io/zh-tw/about-me/</link>
+      <pubDate>Wed, 30 Apr 2025 14:04:51 +0800</pubDate>
+      <author>ychen2@andrew.cmu.edu (Patrick)</author>
+      <guid>https://tcfsh69.github.io/zh-tw/about-me/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CMU 行前準備</title>
+      <link>https://tcfsh69.github.io/zh-tw/posts/my-cmu-life/cmu-preliminary/</link>
+      <pubDate>Wed, 30 Apr 2025 13:28:53 +0800</pubDate>
+      <author>ychen2@andrew.cmu.edu (Patrick)</author>
+      <guid>https://tcfsh69.github.io/zh-tw/posts/my-cmu-life/cmu-preliminary/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tcfsh69.github.io/zh-tw/posts/my-cmu-life/cmu-preliminary/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Leet Prime 出題</title>
+      <link>https://tcfsh69.github.io/zh-tw/posts/ctf/b01lers-ctf-challenge/</link>
+      <pubDate>Wed, 30 Apr 2025 13:28:53 +0800</pubDate>
+      <author>ychen2@andrew.cmu.edu (Patrick)</author>
+      <guid>https://tcfsh69.github.io/zh-tw/posts/ctf/b01lers-ctf-challenge/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tcfsh69.github.io/zh-tw/posts/ctf/b01lers-ctf-challenge/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

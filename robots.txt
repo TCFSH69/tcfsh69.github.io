@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tcfsh69.github.io/sitemap.xml

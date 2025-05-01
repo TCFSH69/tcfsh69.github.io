@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tags on TCFSH69&#39;s Blog</title>
+    <link>https://tcfsh69.github.io/en/tags/</link>
+    <description>Recent content in tags on TCFSH69&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ychen2@andrew.cmu.edu (Patrick)</managingEditor>
+    <webMaster>ychen2@andrew.cmu.edu (Patrick)</webMaster>
+    <copyright>Copy, _right?_ 🤔</copyright>
+    <lastBuildDate>Wed, 30 Apr 2025 13:28:53 +0800</lastBuildDate><atom:link href="https://tcfsh69.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>b01lers</title>
+      <link>https://tcfsh69.github.io/en/tags/b01lers/</link>
+      <pubDate>Wed, 30 Apr 2025 13:28:53 +0800</pubDate>
+      <author>ychen2@andrew.cmu.edu (Patrick)</author>
+      <guid>https://tcfsh69.github.io/en/tags/b01lers/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CMU</title>
+      <link>https://tcfsh69.github.io/en/tags/cmu/</link>
+      <pubDate>Wed, 30 Apr 2025 13:28:53 +0800</pubDate>
+      <author>ychen2@andrew.cmu.edu (Patrick)</author>
+      <guid>https://tcfsh69.github.io/en/tags/cmu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CTF</title>
+      <link>https://tcfsh69.github.io/en/tags/ctf/</link>
+      <pubDate>Wed, 30 Apr 2025 13:28:53 +0800</pubDate>
+      <author>ychen2@andrew.cmu.edu (Patrick)</author>
+      <guid>https://tcfsh69.github.io/en/tags/ctf/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
