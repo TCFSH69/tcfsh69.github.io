@@ -1,0 +1,3 @@
+.flex.inline-badges {
+  @apply inline-flex flex-wrap items-center space-x-2;
+}
