@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿巴巴情人節快樂 💕</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff6b9d, #c44569, #f8b500, #ff9ff3);
+            background-size: 400% 400%;
+            animation: gradientShift 8s ease infinite;
+            min-height: 100vh;
+            overflow-x: hidden;
+            color: white;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header {
+            margin: 50px 0;
+            position: relative;
+        }
+
+        .title {
+            font-size: 4rem;
+            font-weight: bold;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            animation: pulse 2s ease-in-out infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            animation: fadeInUp 2s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 0.9;
+                transform: translateY(0);
+            }
+        }
+
+        .heart-container {
+            position: relative;
+            margin: 50px 0;
+            height: 200px;
+        }
+
+        .heart {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 100px;
+            color: #ff1744;
+            animation: heartBeat 1.5s ease-in-out infinite;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .heart:hover {
+            transform: translate(-50%, -50%) scale(1.2);
+            filter: drop-shadow(0 0 20px rgba(255, 23, 68, 0.8));
+        }
+
+        @keyframes heartBeat {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); }
+            14% { transform: translate(-50%, -50%) scale(1.1); }
+            28% { transform: translate(-50%, -50%) scale(1); }
+            42% { transform: translate(-50%, -50%) scale(1.1); }
+            70% { transform: translate(-50%, -50%) scale(1); }
+        }
+
+        .floating-hearts {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .floating-heart {
+            position: absolute;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 20px;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        .message-box {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 50px auto;
+            max-width: 600px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            animation: slideIn 1.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .message-text {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .love-button {
+            background: linear-gradient(45deg, #ff6b9d, #ff1744);
+            border: none;
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        .love-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            filter: brightness(1.1);
+        }
+
+        .love-button:active {
+            transform: translateY(0);
+        }
+
+
+
+        .sparkle {
+            position: absolute;
+            color: #fff;
+            font-size: 12px;
+            animation: sparkle 2s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        @keyframes sparkle {
+            0%, 100% { opacity: 0; transform: scale(0); }
+            50% { opacity: 1; transform: scale(1); }
+        }
+
+        .footer {
+            margin-top: 80px;
+            padding: 40px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .footer-text {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .title {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .message-box {
+                padding: 20px;
+                margin: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-hearts" id="floatingHearts"></div>
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="title">💖 阿巴巴情人節快樂 💖</h1>
+            <p class="subtitle">我對妳的愛多到滿出來了QwQ</p>
+        </div>
+
+        <div class="heart-container">
+            <div class="heart" onclick="createSparkles(event)">❤️</div>
+        </div>
+
+        <div class="message-box">
+            <p class="message-text">
+                在這1296天旅程中，<br>
+                我們一起經歷了世界上各種美好的事物，<br>
+                也經歷了人生中的各種起伏。
+                我很幸運能夠找到這麼合適的妳一起探索人生、<br>
+                發展屬於我們自己的文化、<br>
+                並且途中互相扶持 (還有咩咪咩咪地叫)。<br>
+                在我的人生中沒人能像妳一樣接受我的孤僻屬性，<br>
+                妳耐心地陪伴我及原諒我每次的犯錯。<br>
+                我真的真的真的好愛妳ㄛㄛㄛㄛㄛㄛ，<br>
+                我會變得越來越好的，<br>
+                希望未來的每一天都能這麼幸福QAQ<br>
+            </p>
+            <button class="love-button" onclick="showLoveMessage()">小喜憨格言</button>
+        </div>
+
+
+
+        <div class="footer">
+            <p class="footer-text">
+                😭 謝謝阿巴巴對我的不離不棄 😭
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // 創建浮動愛心
+        function createFloatingHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'floating-heart';
+            heart.innerHTML = Math.random() > 0.5 ? '💖' : '💕';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDelay = Math.random() * 2 + 's';
+            heart.style.animationDuration = (Math.random() * 3 + 4) + 's';
+            
+            document.getElementById('floatingHearts').appendChild(heart);
+            
+            setTimeout(() => {
+                heart.remove();
+            }, 7000);
+        }
+
+        // 定期創建浮動愛心
+        setInterval(createFloatingHeart, 800);
+
+        // 創建閃爍效果
+        function createSparkles(event) {
+            for (let i = 0; i < 8; i++) {
+                setTimeout(() => {
+                    const sparkle = document.createElement('div');
+                    sparkle.className = 'sparkle';
+                    sparkle.innerHTML = '✨';
+                    
+                    const rect = event.target.getBoundingClientRect();
+                    sparkle.style.left = (rect.left + Math.random() * rect.width) + 'px';
+                    sparkle.style.top = (rect.top + Math.random() * rect.height) + 'px';
+                    sparkle.style.animationDelay = Math.random() * 1 + 's';
+                    
+                    document.body.appendChild(sparkle);
+                    
+                    setTimeout(() => {
+                        sparkle.remove();
+                    }, 2000);
+                }, i * 100);
+            }
+        }
+
+        // 愛意訊息
+        function showLoveMessage() {
+            const messages = [
+                "阿巴巴開心我就開心",
+                "我們死後也要在一起",
+                "我選網概考零分，因為我愛妳",
+                "妳怎麼三餐都在吃啊",
+                "我不能沒有妳",
+                "阿巴巴去休學，我養妳",
+                "我的目標是賺到一個億",
+                "好可憐的小小喜憨",
+                "我們要生一打小喜巴",
+                "妳就是愛吃炸的才會生病",
+                "巴不隆!!!!!!",
+                "阿巴喜呆〰️巴喜巴呆🎵巴巴喜呆🎶呆呆喜巴🎵",
+                "妳要的話每天都可以是情人節阿",
+                "妳臉就算毀容我都會一直愛妳",
+                "我喜歡大女人主義"
+            ];
+            
+            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+            
+            // 創建訊息彈窗
+            const messageDiv = document.createElement('div');
+            messageDiv.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: rgba(255, 255, 255, 0.95);
+                color: #ff1744;
+                padding: 30px 40px;
+                border-radius: 20px;
+                font-size: 1.5rem;
+                font-weight: bold;
+                z-index: 1000;
+                animation: fadeIn 0.5s ease-out;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+                text-align: center;
+                border: 3px solid #ff6b9d;
+                max-width: 90%;
+                width: auto;
+                white-space: nowrap;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            `;
+            
+            messageDiv.innerHTML = randomMessage;
+            document.body.appendChild(messageDiv);
+            
+            setTimeout(() => {
+                messageDiv.style.animation = 'fadeOut 0.5s ease-out';
+                setTimeout(() => {
+                    messageDiv.remove();
+                }, 500);
+            }, 3000);
+        }
+
+        // 添加CSS動畫
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+                to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+            }
+            
+            @keyframes fadeOut {
+                from { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+                to { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // 初始化時創建一些愛心
+        for (let i = 0; i < 5; i++) {
+            setTimeout(createFloatingHeart, i * 500);
+        }
+    </script>
+</body>
+</html>

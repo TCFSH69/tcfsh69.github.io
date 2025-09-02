@@ -3,118 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://tcfsh69.github.io/en/categories/</loc>
-    <lastmod>2025-05-08T00:18:52+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tW"
-      href="https://tcfsh69.github.io/zh-tw/categories/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://tcfsh69.github.io/en/categories/"
-    />
-  </url>
-  <url>
-    <loc>https://tcfsh69.github.io/en/tags/cmu/</loc>
-    <lastmod>2025-05-08T00:18:52+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tW"
-      href="https://tcfsh69.github.io/zh-tw/tags/cmu/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://tcfsh69.github.io/en/tags/cmu/"
-    />
-  </url>
-  <url>
-    <loc>https://tcfsh69.github.io/en/posts/my-cmu-life/fall-2025-course-registration/</loc>
-    <lastmod>2025-05-08T00:18:52+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tW"
-      href="https://tcfsh69.github.io/zh-tw/posts/my-cmu-life/fall-2025-course-registration/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://tcfsh69.github.io/en/posts/my-cmu-life/fall-2025-course-registration/"
-    />
-  </url>
-  <url>
-    <loc>https://tcfsh69.github.io/en/categories/my-cmu-life/</loc>
-    <lastmod>2025-05-08T00:18:52+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tW"
-      href="https://tcfsh69.github.io/zh-tw/categories/my-cmu-life/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://tcfsh69.github.io/en/categories/my-cmu-life/"
-    />
-  </url>
-  <url>
-    <loc>https://tcfsh69.github.io/en/posts/</loc>
-    <lastmod>2025-05-08T00:18:52+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tW"
-      href="https://tcfsh69.github.io/zh-tw/posts/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://tcfsh69.github.io/en/posts/"
-    />
-  </url>
-  <url>
-    <loc>https://tcfsh69.github.io/en/tags/</loc>
-    <lastmod>2025-05-08T00:18:52+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tW"
-      href="https://tcfsh69.github.io/zh-tw/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://tcfsh69.github.io/en/tags/"
-    />
-  </url>
-  <url>
-    <loc>https://tcfsh69.github.io/en/</loc>
-    <lastmod>2025-05-08T00:18:52+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-tW"
-      href="https://tcfsh69.github.io/zh-tw/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://tcfsh69.github.io/en/"
-    />
-  </url>
-  <url>
     <loc>https://tcfsh69.github.io/en/about-me/</loc>
     <lastmod>2025-04-30T14:04:51+08:00</lastmod>
     <changefreq>daily</changefreq>
@@ -131,6 +19,22 @@
     />
   </url>
   <url>
+    <loc>https://tcfsh69.github.io/en/</loc>
+    <lastmod>2025-04-30T14:04:51+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-tW"
+      href="https://tcfsh69.github.io/zh-tw/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://tcfsh69.github.io/en/"
+    />
+  </url>
+  <url>
     <loc>https://tcfsh69.github.io/en/tags/b01lers/</loc>
     <lastmod>2025-04-30T13:28:53+08:00</lastmod>
     <changefreq>daily</changefreq>
@@ -144,6 +48,38 @@
       rel="alternate"
       hreflang="en"
       href="https://tcfsh69.github.io/en/tags/b01lers/"
+    />
+  </url>
+  <url>
+    <loc>https://tcfsh69.github.io/en/categories/</loc>
+    <lastmod>2025-04-30T13:28:53+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-tW"
+      href="https://tcfsh69.github.io/zh-tw/categories/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://tcfsh69.github.io/en/categories/"
+    />
+  </url>
+  <url>
+    <loc>https://tcfsh69.github.io/en/tags/cmu/</loc>
+    <lastmod>2025-04-30T13:28:53+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-tW"
+      href="https://tcfsh69.github.io/zh-tw/tags/cmu/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://tcfsh69.github.io/en/tags/cmu/"
     />
   </url>
   <url>
@@ -208,6 +144,54 @@
       rel="alternate"
       hreflang="en"
       href="https://tcfsh69.github.io/en/posts/ctf/b01lers-ctf-challenge/"
+    />
+  </url>
+  <url>
+    <loc>https://tcfsh69.github.io/en/categories/my-cmu-life/</loc>
+    <lastmod>2025-04-30T13:28:53+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-tW"
+      href="https://tcfsh69.github.io/zh-tw/categories/my-cmu-life/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://tcfsh69.github.io/en/categories/my-cmu-life/"
+    />
+  </url>
+  <url>
+    <loc>https://tcfsh69.github.io/en/posts/</loc>
+    <lastmod>2025-04-30T13:28:53+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-tW"
+      href="https://tcfsh69.github.io/zh-tw/posts/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://tcfsh69.github.io/en/posts/"
+    />
+  </url>
+  <url>
+    <loc>https://tcfsh69.github.io/en/tags/</loc>
+    <lastmod>2025-04-30T13:28:53+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-tW"
+      href="https://tcfsh69.github.io/zh-tw/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://tcfsh69.github.io/en/tags/"
     />
   </url>
 </urlset>
